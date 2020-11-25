@@ -5,13 +5,14 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "NODE_ENV=production node server.js",
-    "export": "npm run build && next export"
+    "start": "next start",
+    "postbuild": "next-on-netlify"
   },
   "dependencies": {
     "next": "10.0.3",
     "next-compose-plugins": "^2.2.1",
     "next-images": "^1.6.2",
+    "next-on-netlify": "^2.6.3",
     "react": "17.0.1",
     "react-audio-spectrum": "^0.1.0",
     "react-dom": "17.0.1",
