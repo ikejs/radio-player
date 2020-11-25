@@ -19,7 +19,7 @@ export default function Home() {
           <audio 
             className="player__audio"
             id="audio-element"
-            src="https://157.245.253.163:8000/unseasonably-sunny"
+            src="https://ice.ike.dev/unseasonably-sunny"
             autoPlay
             controls
             crossOrigin="anonymous"
