@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Sunny97-7 Unseasonably Sunny [LIVE]</title>
+        <title>Sunny 97.7 Unseasonably Sunny [LIVE]</title>
       </Head>
 
       <main>
