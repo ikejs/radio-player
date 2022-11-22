@@ -19,7 +19,7 @@ export default function Home() {
           <audio 
             className="player__audio"
             id="audio-element"
-            src="https://ice.ike.dev/unseasonably"
+            src={process.env.STREAM_URL}
             autoPlay
             controls
             crossOrigin="anonymous"
