@@ -5,7 +5,7 @@ body {
   height: 100%;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  background-color: #002244;
+  background-color:darkgray
 }
 
 .player {
@@ -17,9 +17,10 @@ body {
   padding: 3em;
   border-radius: 15px;
   width: 350px;
-  background: rgb(2,117,216);
-  background: linear-gradient(180deg, rgba(2,117,216,1) 6%, rgba(0,45,91,1) 99%);
+  background: rgb(255,255,255);
+  /* background: linear-gradient(180deg, rgba(2,117,216,1) 6%, rgba(0,45,91,1) 99%); */
   text-align: center;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
 }
 
 #audio-canvas {
