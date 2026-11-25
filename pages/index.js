@@ -2,6 +2,8 @@ import Head from 'next/head';
 import AudioSpectrum from 'react-audio-spectrum';
 
 
+const STREAM_URL = 'https://ice.radioplusinfo.com/unseasonably';
+
 export default function Home() {
 
   return (
@@ -19,7 +21,7 @@ export default function Home() {
           <audio 
             className="player__audio"
             id="audio-element"
-            src={process.env.STREAM_URL}
+            src={STREAM_URL}
             autoPlay
             controls
             crossOrigin="anonymous"
